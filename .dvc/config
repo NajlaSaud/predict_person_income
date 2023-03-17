@@ -1,4 +1,6 @@
 [core]
-    remote = localremote
+    remote = s3_remote
 ['remote "localremote"']
     url = ../local
+['remote "s3_remote"']
+    url = s3://predict-person-income-dataset
