@@ -8,7 +8,7 @@ import pickle
 from ml.data import process_data
 from ml.model import train_model, compute_model_metrics, inference
 
-# Add code to load in the data.
+# Load data.
 data = pd.read_csv('./data/cleaned_data.csv')
 
 
@@ -43,4 +43,6 @@ print('recall %: ', recall)
 print('fbeta %: ', fbeta)
 
 pickle.dump(model, open('./model/model.pkl','wb'))
+pickle.dump(encoder, open('./model/encoder.pkl','wb'))
+pickle.dump(lb, open('./model/lb.pkl','wb'))
 

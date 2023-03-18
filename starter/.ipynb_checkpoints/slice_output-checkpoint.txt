@@ -1,0 +1,16 @@
+education - Bachelors :: Precision:  0.82. Recall:  0.28. Fbeta:  0.42
+education - HS-grad :: Precision:  0.55. Recall:  0.22. Fbeta:  0.32
+education - 11th :: Precision:  0.57. Recall:  0.42. Fbeta:  0.48
+education - Masters :: Precision:  0.87. Recall:  0.32. Fbeta:  0.47
+education - 9th :: Precision:  0.25. Recall:  0.15. Fbeta:  0.19
+education - Some-college :: Precision:  0.63. Recall:  0.22. Fbeta:  0.33
+education - Assoc-acdm :: Precision:  0.71. Recall:  0.25. Fbeta:  0.38
+education - Assoc-voc :: Precision:  0.69. Recall:  0.25. Fbeta:  0.37
+education - 7th-8th :: Precision:  0.22. Recall:  0.18. Fbeta:  0.20
+education - Doctorate :: Precision:  0.93. Recall:  0.33. Fbeta:  0.48
+education - Prof-school :: Precision:  0.95. Recall:  0.43. Fbeta:  0.59
+education - 5th-6th :: Precision:  0.25. Recall:  0.29. Fbeta:  0.27
+education - 10th :: Precision:  0.50. Recall:  0.27. Fbeta:  0.35
+education - Preschool :: Precision:  0.00. Recall:  1.00. Fbeta:  0.00
+education - 12th :: Precision:  0.47. Recall:  0.23. Fbeta:  0.30
+education - 1st-4th :: Precision:  0.25. Recall:  0.17. Fbeta:  0.20
