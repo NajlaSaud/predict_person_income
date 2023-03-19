@@ -1,7 +1,10 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import uvicorn
-from typing import Literal
+try:
+    from typing import Literal
+except ImportError:
+    from typing_extensions import Literal
 import numpy as np
 import pandas as pd
 import joblib
