@@ -162,8 +162,7 @@ async def predict(input: InputData):
 
     X, _, _, _ = process_data(
         input_df, 
-        categorical_features=cat_features, 
-        label="salary",
+        categorical_features=cat_features,
         encoder=encoder, 
         lb=lb, 
         training=False)

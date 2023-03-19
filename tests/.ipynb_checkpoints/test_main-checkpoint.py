@@ -22,24 +22,24 @@ def test_post_predict_up():
     """ Test an example when income is less than 50K """
 
     r = client.post("/predict-income", json={
-        "age": 37,
-        "workclass": "Private",
-        "fnlgt": 280464,
-        "education": "Some-college",
-        "education_num": 10,
+        "age": 52,
+        "workclass": "Self-emp-not-inc",
+        "fnlgt": 209642,
+        "education": "HS-grad",
+        "education_num": 9,
         "marital_status": "Married-civ-spouse",
         "occupation": "Exec-managerial",
         "relationship": "Husband",
-        "race": "Black",
+        "race": "White",
         "sex": "Male",
         "capital_gain": 0,
         "capital_loss": 0,
-        "hours_per_week": 80,
+        "hours_per_week": 45,
         "native_country": "United-States"
     })
 
     assert r.status_code == 200
-    assert r.json() == {"Income prediction": ">50K"}
+    assert r.json() == {"Income prediction": " <=50K"}
 
 
 def test_post_predict_down():
@@ -62,4 +62,4 @@ def test_post_predict_down():
     })
 
     assert r.status_code == 200
-    assert r.json() == {"Income prediction": "<=50K"}
+    assert r.json() == {"Income prediction": " <=50K"}

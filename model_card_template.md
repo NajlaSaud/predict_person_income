@@ -24,3 +24,9 @@ The model was evaluated using:
 - Recall: The recall is  0.2662
 - F beta score: The value is 0.3921
 
+
+## Ethical Considerations
+The dataset contains features regarding race, sex and so on. A consideration should be paid to how the model performs across various groups.
+
+## Caveats and Recommendations
+Hyperparameter tuning can be used to try variuos hyperparameters. Also, the training can be performed using variuos models and a mechanism to choose the best performing model can be added to select which model to deploy. 
